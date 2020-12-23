@@ -1,3 +1,7 @@
 /venv/
 /app/Reports/
 /app/report_service.log
+/app/__pycache__/
+/py/
+/.idea/
+__pycache__/
