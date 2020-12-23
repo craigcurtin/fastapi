@@ -1,0 +1,25 @@
+
+
+@router.get("/applications/{appName}", tags=["applications"])
+async def application_health():
+    return [{"Apps": "trace"}, {"username": "Morty"}]
+
+@router.get("/applications/{appName}/_metrics", tags=["applications"])
+async def application_metrics( appName : str):
+    return [{"Apps": "trace"}, {"username": "Morty"}]
+
+
+@router.get("/applications/{appName}/reports/{reportId}", tags=["applications"])
+async def report_create():
+    return [{"Apps": "trace"}, {"username": "Morty"}]
+
+@router.get("/applications/{appName}/report_status/{reportId}", tags=["applications"])
+async def report_status():
+    return [{"Apps": "trace"}, {"username": "Morty"}]
+
+@router.get("/applications/{appName}/report/{reportId}", tags=["applications"])
+async def report_retrieve():
+    return [{"Apps": "trace"}, {"username": "Morty"}]
+
+
+https://medium.com/1mgofficial/how-to-override-uvicorn-logger-in-fastapi-using-loguru-124133cdcd4e

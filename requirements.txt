@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pytz
+pandas
+XlsxWriter
+sphinx
+pytest
+loguru  #this is kind of optional, for the alternate logging module ...
