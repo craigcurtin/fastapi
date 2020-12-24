@@ -11,12 +11,18 @@ FastAPI has some 'self-documenting' features that ease its usage and deployment 
 ```
  To run on your desktop:
 
+ # clone the code from the gitlab repository
  $ git clone https://code.ssnc.global/CCurtin/fastapi 
+ 
+ # 1. Launch PyCharm (Python IDE), 
+ # 2. Create a new project around above code, create virtual env (venv)
+
+ # 3. Install Python packages to the just created venv. 
  $ pip install -r requirements.txt --index-url https://artifacts-scm.dstcorp.net/artifactory/api/pypi/pypi-repos/simple
  
- Launch PyCharm (Python IDE), create a virtual env, create a ‘run’ environment configuration 
+ # 4. In PyCharm, create a ‘run’ Python environment configuration. reference 'app/main.py' as your entry poing
+ # 5. Run, by default the code runs on http://0.0.0.0:7000 … if you run, the below links will work as is 
  
- Run, by default the code runs on http://0.0.0.0:7000 … if you run, the below links will work as is 
 ```
 
 By default, the code executes on http://0.0.0.0:7000
