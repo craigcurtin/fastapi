@@ -9,10 +9,13 @@ Source Code: https://github.com/tiangolo/fastapi
 FastAPI has some 'self-documenting' features that ease its usage and deployment with APIM's Portal (https://test-developer.ssnc.cloud).
 
 ```
- To run on your desktop 
+ To run on your desktop:
+
  $ git clone https://code.ssnc.global/CCurtin/fastapi 
  $ pip install -r requirements.txt --index-url https://artifacts-scm.dstcorp.net/artifactory/api/pypi/pypi-repos/simple
+ 
  Launch PyCharm (Python IDE), create a virtual env, create a ‘run’ environment configuration 
+ 
  Run, by default the code runs on http://0.0.0.0:7000 … if you run, the below links will work as is 
 ```
 
