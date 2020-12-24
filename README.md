@@ -2,10 +2,13 @@ This project uses Python 3.8 and FastAPI to create a WebService demo for Pharmac
 
 FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
 
+```
 For details on FastAPI:
-Documentation: https://fastapi.tiangolo.com
-Source Code: https://github.com/tiangolo/fastapi
 
+- Documentation: https://fastapi.tiangolo.com
+- Source Code: https://github.com/tiangolo/fastapi
+
+```
 FastAPI has some 'self-documenting' features that ease its usage and deployment with APIM's Portal (https://test-developer.ssnc.cloud).
 
 ```
